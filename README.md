@@ -1,4 +1,4 @@
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+(docs/CONTRIBUTING.md) .markdown
 LIRI Bot
 
 Overview
