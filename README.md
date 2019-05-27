@@ -1,4 +1,3 @@
-(docs/CONTRIBUTING.md) .markdown
 
 LIRI Bot
 
