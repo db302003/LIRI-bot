@@ -3,7 +3,7 @@ LIRI BOT
 
 ![](images/Liri2.png)     
 
-![](images/Liri3.png)                 ![](images/Liri4.png)       
+                    
 
 Overview
 
