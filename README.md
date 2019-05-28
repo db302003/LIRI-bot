@@ -1,13 +1,11 @@
 
-LIRI BOT
+LIRI BOT - - - - Please see "Images" folder to see Liri Bot screenshots
 
-![](images/Liri2.png) 
-
-![](images/Liri3.png)
+![](images/Liri2.png)                                                   ![](images/Liri3.png)
 
 ![](images/Liri4.png)
 
-![](images/Liri6.png)                                     ![](images/Liri7.png)     
+![](images/Liri6.png)                                                    ![](images/Liri7.png)     
 
 
                     
