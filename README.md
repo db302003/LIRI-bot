@@ -1,7 +1,9 @@
 
-LIRI Bot
+LIRI BOT
 
-![](images/Liri1.png)
+![](images/Liri2.png)     
+
+![](images/Liri3.png)                 ![](images/Liri4.png)       
 
 Overview
 
