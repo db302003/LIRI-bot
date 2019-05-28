@@ -1,7 +1,7 @@
 
 LIRI Bot
 
-![](Liri1.png)
+![](%20Liri1.png)
 
 Overview
 
