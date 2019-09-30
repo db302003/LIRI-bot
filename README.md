@@ -1,5 +1,5 @@
 
-### LIRI BOT ###
+# LIRI BOT #
 
 ![](images/Liri2.png)                                                   ![](images/Liri3.png)
 
@@ -10,19 +10,19 @@
 
                     
 
-## Overview ##
+### Overview ###
 
 In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 
-## Before You Begin ##
+### Before You Begin ###
 
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 Make a new GitHub repository called liri-node-app and clone it to your computer.
 To retrieve the data that will power this app, you'll need to send requests using the axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
 
-## Node-Spotify-API ##
+### Node-Spotify-API ###
 
 Axios
 
@@ -32,7 +32,7 @@ You'll use Axios to grab data from the OMDB API and the Bands In Town API
 Moment
 DotEnv
 
-## Submission Guide ## 
+### Submission Guide ###
 
 Create and use a standard GitHub repository. As this is a CLI App, it cannot be deployed to GitHub pages or Heroku. This time you'll need to include screenshots, a GIF, and/or a video showing us that you have the app working with no bugs. You can include these screenshots/GIFs or a link to a video in a README.md file.
 
@@ -42,7 +42,7 @@ Include any other screenshots you deem necessary to help someone who has never b
 Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
 
 
-## Instructions ##
+### Instructions ###
 
 
 Navigate to the root of your project and run npm init -y — this will initialize a package.json file for your project. The package.json file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a package.json file, it will be troublesome, and at times almost impossible for anyone else to run your code after cloning your project.
@@ -55,7 +55,7 @@ node_modules
 
 Make a JavaScript file named keys.js.
 
-## Inside keys.js your file will look like this: ##
+### Inside keys.js your file will look like this: ###
 
 
 console.log('this is loaded');
@@ -68,7 +68,7 @@ exports.spotify = {
 Next, create a file named .env, add the following to it, replacing the values with your API keys (no quotes) once you have them:
 
 
-# Spotify API Keys #
+### Spotify API Keys ###
 
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
@@ -82,7 +82,7 @@ If someone wanted to clone your app from github and run it themselves, they woul
 Make a file called random.txt.
 
 
-# Inside of random.txt put the following in with no extra characters or white space: #
+### Inside of random.txt put the following in with no extra characters or white space: ###
 
 
 spotify-this-song,"I Want it That Way"
@@ -105,7 +105,7 @@ You should then be able to access your keys information like so
   var spotify = new Spotify(keys.spotify);
   
 
-# Make it so liri.js can take in one of the following commands: #
+### Make it so liri.js can take in one of the following commands: ###
 
 concert-this
 spotify-this-song
@@ -114,7 +114,7 @@ do-what-it-says
 
 
 
-# What Each Command Should Do #
+### What Each Command Should Do ###
 
 
 node liri.js concert-this <artist/band name here>
@@ -150,7 +150,7 @@ Step Four: On the next screen, scroll down to where you see your client id and c
 node liri.js movie-this '<movie name here>'
 
 
-This will output the following information to your terminal/bash window:
+### This will output the following information to your terminal/bash window: ###
 
    * Title of the movie.
    * Year the movie came out.
