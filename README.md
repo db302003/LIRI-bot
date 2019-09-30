@@ -1,5 +1,5 @@
 
-LIRI BOT - - - - Please see "Images" folder to see the rest of Liri Bot screenshots!
+### LIRI BOT ###
 
 ![](images/Liri2.png)                                                   ![](images/Liri3.png)
 
@@ -10,19 +10,19 @@ LIRI BOT - - - - Please see "Images" folder to see the rest of Liri Bot screensh
 
                     
 
-Overview
+## Overview ##
 
 In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 
-Before You Begin
+## Before You Begin ##
 
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 Make a new GitHub repository called liri-node-app and clone it to your computer.
 To retrieve the data that will power this app, you'll need to send requests using the axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
 
-Node-Spotify-API
+## Node-Spotify-API ##
 
 Axios
 
@@ -32,7 +32,7 @@ You'll use Axios to grab data from the OMDB API and the Bands In Town API
 Moment
 DotEnv
 
-Submission Guide
+## Submission Guide ## 
 
 Create and use a standard GitHub repository. As this is a CLI App, it cannot be deployed to GitHub pages or Heroku. This time you'll need to include screenshots, a GIF, and/or a video showing us that you have the app working with no bugs. You can include these screenshots/GIFs or a link to a video in a README.md file.
 
@@ -42,17 +42,7 @@ Include any other screenshots you deem necessary to help someone who has never b
 Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
 
 
-If you haven't written a markdown file yet, click here for a rundown, or just take a look at the raw file of these instructions.
-
-
-Submission on BCS
-
-
-Please submit the link to the Github Repository!
-
-
-
-Instructions
+## Instructions ##
 
 
 Navigate to the root of your project and run npm init -y — this will initialize a package.json file for your project. The package.json file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a package.json file, it will be troublesome, and at times almost impossible for anyone else to run your code after cloning your project.
@@ -65,7 +55,7 @@ node_modules
 
 Make a JavaScript file named keys.js.
 
-Inside keys.js your file will look like this:
+## Inside keys.js your file will look like this: ##
 
 
 console.log('this is loaded');
@@ -78,7 +68,7 @@ exports.spotify = {
 Next, create a file named .env, add the following to it, replacing the values with your API keys (no quotes) once you have them:
 
 
-# Spotify API keys
+# Spotify API Keys #
 
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
@@ -92,7 +82,7 @@ If someone wanted to clone your app from github and run it themselves, they woul
 Make a file called random.txt.
 
 
-Inside of random.txt put the following in with no extra characters or white space:
+# Inside of random.txt put the following in with no extra characters or white space: #
 
 
 spotify-this-song,"I Want it That Way"
@@ -113,9 +103,9 @@ You should then be able to access your keys information like so
 
 
   var spotify = new Spotify(keys.spotify);
+  
 
-Make it so liri.js can take in one of the following commands:
-
+# Make it so liri.js can take in one of the following commands: #
 
 concert-this
 spotify-this-song
@@ -123,7 +113,8 @@ movie-this
 do-what-it-says
 
 
-What Each Command Should Do
+
+# What Each Command Should Do #
 
 
 node liri.js concert-this <artist/band name here>
@@ -182,10 +173,7 @@ It's on Netflix!
 You'll use the axios package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use trilogy.
 
 
-
 node liri.js do-what-it-says
-
-
 
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
@@ -193,41 +181,3 @@ Using the fs Node package, LIRI will take the text inside of random.txt and then
 
 It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 Edit the text in random.txt to test out the feature for movie-this and concert-this.
-
-
-
-BONUS
-
-In addition to logging the data to your terminal/bash window, output the data to a .txt file called log.txt.
-Make sure you append each command you run to the log.txt file. 
-Do not overwrite your file each time you run a command.
-
-
-Reminder: Submission on BCS
-
-Please submit the link to the Github Repository!
-
-
-Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below.
-
-
-Create a README.md
-
-Add a README.md to your repository describing the project. Here are some resources for creating your README.md. Here are some resources to help you along the way:
-
-About READMEs
-Mastering Markdown
-
-
-Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
-
-One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-Good Luck!
